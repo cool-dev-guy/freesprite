@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="app.ui"></script>
+	<title>FREESPRITE.DEV.0.0.1.B</title>
+</head>
+<body id="app" onmouseup="msd=false">
+  <section id="app_menu">
+    <ul>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">File</a>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </li>
+        <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Edit</a>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </li>
+        <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Window</a>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </li>
+        <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Help</a>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </li>
+        <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Scripts</a>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <section id="app_aapp">
+    <div class="app_tab">
+      <div class="pusher1"></div>
+      <div class="app_tab_content">
+        <button class="tablinks" onclick="openCity(event, 'London')">Cat Is not cool<a onclick="closeTab(this)">x</a></button>
+        <button class="tablinks" onclick="openCity(event, 'Paris')">topgun</button>
+        <button class="tablinks" onclick="openCity(event, 'Tokyo')">exclamation</button>
+        <button class="tablinks" onclick="openCity(event, 'Tokyo')">diagram</button>
+      </div>
+      <div class="pusher2"></div>
+      </div>
+    <div class="app_edit">
+      
+    </div>
+    <section class="app_main">
+      <section id="app_main_left">
+        <section class="app_left_pallete" id="pallete">
+          <button>!</button>
+          <button>!</button>
+        </section>
+        <section class="app_remap-btn"></section>  
+        <section class="app_left_color">
+          <canvas id="colorCanvas" class="color-canvas" width="100%" height="100%"></canvas>
+          <button class="fg-color">FGGG</button>
+          <button class="bg-color">BGGG</button>
+        </section>
+      </section>
+      <section id="app_main_mid">
+        <section class="canvas-container" id="canvas-container">
+          <div id="Canvas" width="fit-content" height="fit-content" style="width:var(--canw);height:var(--canh);">
+              <canvas id="canvas" onmousedown="msd=true;msdp(event)" onmouseup="msd=false" style="cursor:none;scale:10;background:#DDD;top:0px;transform-origin:0 0;image-rendering: pixelated;display:block;" width="32px" height="32px" style="border:1px solid #d3d3d3;">
+              </canvas>
+          </div>
+          <div style="transition:0s;position:absolute;border:1px solid green;width:1px;height:1px;cursor:none;" id="ss" onmousedown="msd=true;msdp(event)"></div>
+        </section> 
+        <section id="app_main_hs"></section>
+        <section id="app_main_aa"></section>
+      </section>
+      <section id="app_main_right">
+        <button>!</button>
+        <button>!</button>
+      </section>
+    </section>
+  </section>
+  <section id="app_stat">NIGHTLY BUILD EDITION</section>
+<script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="canvas.js"></script>
+
+<script type="text/javascript" src="color_picker.js"></script>
+
+<link rel="stylesheet" type="text/css" href="app.css">
+<link rel="stylesheet" type="text/css" href="menu.css">
+<link rel="stylesheet" type="text/css" href="tab.css">
+</body>
+</html>

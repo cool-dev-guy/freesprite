@@ -1,0 +1,64 @@
+section#app_menu{
+	height:20px !important;
+}
+ul {
+  display: block;
+  max-height: 20px !important;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #d3cbbe;
+}
+
+li {
+  max-height: 20px !important;
+  padding:1px;
+  margin-left:4px;
+  text-underline-offset: 1px;
+  margin-right:4px;
+  float: left;
+}
+
+li a, .dropbtn {
+  height:20px !important;
+  display: inline-block;
+  color:#222;
+  text-align: center;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #a59b8a;
+}
+
+li.dropdown {
+
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 20px;
+  background-color: #d3cbbe;
+  width:100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  padding:1px;
+  padding-left:2px;
+  padding-right:2px;
+  color: black;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #a59b8a;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

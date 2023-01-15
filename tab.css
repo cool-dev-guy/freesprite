@@ -1,0 +1,67 @@
+/* Style the tab */
+.app_tab {
+
+  overflow:hidden;
+  background-color: #d3cbbe;
+  display:grid;
+  grid-template-columns:auto auto 1fr;
+}
+
+/* Style the buttons inside the tab */
+.app_tab button {
+  margin-left: 0px;
+  margin-right: 0px;
+  color:#DDD;
+  text-shadow:0px 0px 3px #111;
+  text-align:left;
+  width:150px;
+  max-width:150px;
+  box-shadow:0px 0px 3px 2px #111;
+  border-top-right-radius:12px;
+  border-top:1px solid #111;
+  border-left:1px solid white;
+  border-right:1px solid white;
+  border-bottom:none !important;
+  border-top-left-radius:12px;
+  background-color: #7e919f;
+  float: left;
+  outline: none;
+  cursor: pointer;
+  height:25px;
+  transition: 0.3s;
+  font-size: 24px;
+}
+
+
+/*.app_tab button:hover {
+  background-color: rgba(255,255,255,0.1);
+}
+
+
+.app_tab button.active {
+  background-color: rgba(0,0,0,0.7);
+}
+*/
+
+.app_tab button{
+line-height:28px;
+cursor:pointer;
+display:grid;
+grid-template-columns:1fr auto;
+}
+.app_tab a{
+color:#DDD;
+text-shadow:0px 0px 3px #111;
+text-align:center;
+color:#DDD;
+width:20px;
+height:20px;
+display:inline-block;
+}
+.pusher2{
+border-bottom:2px solid #111;
+}
+.pusher1{
+width:10px;
+border-bottom:2px solid #111;
+}
